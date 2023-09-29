@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Tracker</title>
+</head>
+<body>
+    <header>
+        <h1 div id="titleHeader"> Swiftball Fantasy League!</h1>
+        <hr width = 100% size=5 color="black" noshade style="margin-top: auto; margin-bottom:0px;"/>
+        <button type="button" div id="linkButtons" onclick="window.location.href='http://127.0.0.1:8000';">Home</div></button>
+        <button type="button" div id="linkButtons" onclick="window.location.href='http://127.0.0.1:8000/enter/';">Enter</div></button>
+        <button type="button" div id="linkButtons" onclick="window.location.href='http://127.0.0.1:8000/stats/';">Previous Statistics</div></button>
+    </header>
+     <div id="subtitle">
+        <p> <h1>Results of 6/30/23 Cincinnati, Ohio Show!!</h1></p>
+     </div>
+     <p><div id="LoverSuitR"> <img src="{% static '\pinkSuit.jpg' %}"alt="Pink and Blue Lover Bodysuit" ><figcaption>Pink and Blue Bodysuit</figcaption></div>
+     <div id="TheManR"> <img src="{% static '\ManBlazer.jpg' %}"alt="Silver The Man Bodysuit" ><figcaption>Silver "The Man" Jacket</figcaption></div></p>
+ 
+ 
+<p style="font-size: 30px;">
+</p>
+
+</body>
+</html>
